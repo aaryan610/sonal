@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Fname, Lname, Mobile no, Email, Password, Gender, DOB, Education(Select),
+      Hobbies(Checkbox)
+    </title>
+  </head>
+  <body>
+    <form action="">
+      <div>
+        <label for="Fname"> FirstName</label
+        ><input
+          type="text"
+          name="FName"
+          placeholder="Enter your FName"
+          id="Fname"
+        />
+      </div>
+      <div>
+        <label for="lName"> LastName</label
+        ><input
+          type="text"
+          name="lName"
+          placeholder="Enter your LName"
+          id="lName"
+        />
+      </div>
+      <div>
+        <label for="mobile"> MobileNo.</label
+        ><input
+          type="number"
+          name="mobileNo"
+          placeholder="Enter your MobileNo."
+          id="mobile"
+          minlength="10"
+          maxlength="10"
+        />
+      </div>
+      <div>
+        <label for="email">Email</label
+        ><input
+          type="email"
+          name="email"
+          placeholder="Enter your email"
+          id="email"
+          required
+        />
+      </div>
+      <div>
+        <label for="password">Password</label
+        ><input
+          type="password"
+          name="password"
+          placeholder="Enter your password"
+          id="password"
+          required
+        />
+      </div>
+      <div>
+        <label for="dob">DOB</label
+        ><input
+          type="date"
+          name="dob"
+          placeholder="Enter your dob"
+          id="dob"
+          required
+        />
+      </div>
+      <div>
+        <label for="education">Education</label>
+        <select name="education" id="education" required>
+          <option value="">Select-an-option</option>
+          <option value="10th">10th</option>
+          <option value="12th">12th</option>
+        </select>
+      </div>
+      <div>
+        Select your Hobbies
+        <br />
+        <label for="dancing">Dancing</label>
+        <input type="checkbox" name="hobbies" id="dancing" value="dancing" />
+
+        <label for="singing">Singing</label>
+        <input type="checkbox" name="hobbies" id="singing" value="singing" />
+
+        <label for="painting">Painting</label>
+        <input type="checkbox" name="hobbies" id="painting" value="painting" />
+      </div>
+      <div>
+        Select your gender
+        <br />
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male" checked />
+
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female" />
+
+        <label for="other">Other</label>
+        <input type="radio" name="gender" id="other" value="other" />
+      </div>
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
