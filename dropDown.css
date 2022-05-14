@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border: none;
+  border-bottom: 1px solid gray;
+  padding: 20px;
+  width: 249.5px;
+  text-align: left;
+  font-size: medium;
+  border-radius: 8px;
+  background-color: white;
+}
+.dropDownList {
+  display: none;
+  background-color: white;
+  border: none;
+  border-radius: 0px 0px 8px 8px;
+  width: 249px;
+}
+
+.dropDown {
+  margin: 10px 10px 0px;
+}
+
+.dropDown:hover .dropDownList {
+  display: block;
+}
+.dropDown:hover button {
+  border-radius: 8px 8px 0 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+li {
+  text-align: left center;
+  border-bottom: 1px solid grey;
+  margin: 0px;
+  padding: 20px;
+}
+
+.button:hover button {
+  background-color: rgb(96, 146, 238);
+}
+
+li:hover {
+  background-color: rgb(96, 146, 238);
+}

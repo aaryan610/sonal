@@ -1,0 +1,14 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  /* grid-gap: 2rem; */
+  grid-column-gap: 2rem;
+  grid-row-gap: 1rem;
+}
+
+.grid-items {
+  height: 100px;
+  width: 100%;
+  border: 1px solid white;
+  background-color: blue;
+}
